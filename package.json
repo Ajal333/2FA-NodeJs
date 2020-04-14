@@ -1,0 +1,39 @@
+{
+  "name": "2fa-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajal333/2FA-NodeJs.git"
+  },
+  "author": "Ajal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajal333/2FA-NodeJs/issues"
+  },
+  "homepage": "https://github.com/Ajal333/2FA-NodeJs#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.9.7",
+    "nodemailer": "^6.4.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
